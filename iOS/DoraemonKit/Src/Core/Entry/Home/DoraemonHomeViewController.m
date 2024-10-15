@@ -133,7 +133,7 @@ static NSString *DoraemonHomeCloseCellID = @"DoraemonHomeCloseCellID";
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return _dataArray.count + 1;
+    return _dataArray.count;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
